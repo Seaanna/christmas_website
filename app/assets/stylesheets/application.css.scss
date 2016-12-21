@@ -15,7 +15,7 @@
  */
 
  .border {
-  border: solid white;
+  border: solid #e01616;
  }
 
  .name {
@@ -23,20 +23,20 @@
  }
 
  .name_color {
-   color: #42315E;
+   color: #e01616;
  }
 
  .background_color{
-   background-color: #987985;
+   background-color: #d4d7dd;
  }
 
  @font-face {
-   font-family: "Paint";
-   src: font-url("Paint.ttf") format("truetype");
+   font-family: "Royal";
+   src: font-url("Royal.ttf") format("truetype");
  }
 
- .paint{
-   font-family: "Paint" !important;
+ .royal{
+   font-family: "Royal" !important;
  }
 
   @font-face {
@@ -86,12 +86,12 @@
 }
 
 @font-face {
-  font-family: "Hanging";
-  src: font-url("Hanging.ttf") format("truetype");
+  font-family: "Gift";
+  src: font-url("Gift.ttf") format("truetype");
 }
 
-.hanging{
-  font-family: "Hanging" !important;
+.gift {
+  font-family: "Gift" !important;
 }
 
 .black_border_top{
@@ -291,10 +291,24 @@
   line-height: 1.3em;
 }
 
-
 .white_border{
-  border: 1px solid white;
-  border-radius: 10px;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+.silver_border{
+  border: 4px solid #a9b9c6;
+  border-radius: 50%;
+}
+
+.red_border{
+  border: 4px solid #D61A18;
+  border-radius: 50%;
+}
+
+.green_border{
+  border: 2px solid #0c3f0f;
+  border-radius: 50%;
 }
 
 .white_border_top {
@@ -305,7 +319,7 @@
   padding: 15px 8px;
 }
 
-.project_images {
+.project_image {
   border: 1px solid black;
   text-align: center;
 }
@@ -349,14 +363,14 @@ ul {
   color: #a35c90;
 }
 
-.text_purple {
-  color: #42315E;
+.text_red {
+  color: #d61a18;
 }
 
 // fixed image backgrounds
 
 .fixed-bg {
-    background-image: image-url("suc_dark.jpg");
+    background-image: image-url("christmas_tree.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -383,6 +397,16 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.fixed-bg_love {
+    background-image: image-url("holly.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 .no_padding{
