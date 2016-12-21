@@ -371,7 +371,6 @@ ul {
 
 .fixed-bg {
     background-image: image-url("christmas_tree.jpg");
-    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -435,8 +434,9 @@ a {
   margin-left: -15px;
   background-size: 100%;
   z-index: 10000;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   overflow: hidden;
+  max-width: 300px;
 }
 
 ol li{
@@ -478,6 +478,7 @@ ol .playing a, .playing{
   font-size: 18px;
   font-weight: 700;
   margin-right: 3px;
+  margin-left: 5px;
   background-color: transparent !important;
 }
 
@@ -497,4 +498,12 @@ ol .playing a, .playing{
 
 .white{
   color: white;
+}
+
+.no_wrap{
+  whitespace: nowrap;
+}
+
+.audiojs{
+  width: 100% !important;
 }
