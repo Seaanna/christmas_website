@@ -467,7 +467,8 @@ ol li a:hover{
 }
 
 ol .playing a, .playing{
-  color: #ffeb3b !important;
+  text-decoration: underline;
+  color: white;
 }
 
 .collapse_playlist{
@@ -488,4 +489,12 @@ ol .playing a, .playing{
 
 .playlist_collapsed{
   height: 65px;
+}
+
+.red{
+  color: red;
+}
+
+.white{
+  color: white;
 }
