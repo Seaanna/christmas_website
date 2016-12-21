@@ -424,3 +424,68 @@ a {
 .transparent_background, .transparent_background:hover{
   background-color: transparent !important;
 }
+
+.audiojs .play-pause{
+  width: 40px !important;
+}
+
+#wrapper{
+  position: fixed;
+  background-image: image-url("stripes.png");
+  margin-left: -15px;
+  background-size: 100%;
+  z-index: 10000;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+ol li{
+  margin-top: 2px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+ol li a{
+  margin-top: 2px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+ol li a:hover{
+    margin-top: 2px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent !important;
+    text-decoration: underline;
+}
+
+ol .playing a, .playing{
+  color: #ffeb3b !important;
+}
+
+.collapse_playlist{
+  font-family: OpenSans;
+  color: white !important;
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 3px;
+  background-color: transparent !important;
+}
+
+.collapse_playlist:hover{
+  color: white !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.playlist_collapsed{
+  height: 65px;
+}
