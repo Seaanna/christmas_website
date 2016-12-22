@@ -371,7 +371,6 @@ ul {
 
 .fixed-bg {
     background-image: image-url("christmas_tree.jpg");
-    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -423,4 +422,88 @@ a {
 
 .transparent_background, .transparent_background:hover{
   background-color: transparent !important;
+}
+
+.audiojs .play-pause{
+  width: 40px !important;
+}
+
+#wrapper{
+  position: fixed;
+  background-image: image-url("stripes.png");
+  background-size: 100%;
+  z-index: 10000;
+  background-repeat: repeat;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+}
+
+ol li{
+  margin-top: 2px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+ol li a{
+  margin-top: 2px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+ol li a:hover{
+    margin-top: 2px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent !important;
+    text-decoration: underline;
+}
+
+ol .playing a, .playing{
+  text-decoration: underline;
+  color: white;
+}
+
+.collapse_playlist{
+  font-family: OpenSans;
+  color: white !important;
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 3px;
+  margin-left: 5px;
+  background-color: transparent !important;
+}
+
+.collapse_playlist:hover{
+  color: white !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.playlist_collapsed{
+  height: 65px;
+}
+
+.red{
+  color: red;
+}
+
+.white{
+  color: white;
+}
+
+.no_wrap{
+  whitespace: nowrap;
+}
+
+.audiojs{
+  width: 100% !important;
 }
