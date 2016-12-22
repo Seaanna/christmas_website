@@ -1,5 +1,7 @@
 class PicturesController < ApplicationController
+  http_basic_authenticate_with name: "christmas_is_the_best", password: ENV['password']
   before_action :set_picture, only: [:show, :edit, :update, :destroy]
+
 
   # GET /pictures
   # GET /pictures.json
