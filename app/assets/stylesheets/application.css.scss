@@ -437,6 +437,7 @@ a {
   overflow: hidden;
   left: 0;
   right: 0;
+  top: 0;
 }
 
 ol li{
@@ -482,6 +483,17 @@ ol .playing a, .playing{
   background-color: transparent !important;
 }
 
+.current_playing{
+  font-family: OpenSans;
+  color: white !important;
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 3px;
+  margin-left: 5px;
+  background-color: transparent !important;
+}
+
 .collapse_playlist:hover{
   color: white !important;
   text-decoration: underline;
@@ -506,4 +518,34 @@ ol .playing a, .playing{
 
 .audiojs{
   width: 100% !important;
+}
+
+.slick-prev, .slick-next{
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 50px !important;
+  height: 50px !important;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 50px !important;
+  line-height: 1;
+  opacity: .85 !important;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -200px !important;
 }

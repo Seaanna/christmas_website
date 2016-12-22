@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Caption:</strong>
+  <%= @picture.caption %>
+
+  <div class="row">
+    <div class="col-xs-6">
+      <% if @picture.image.present? %>
+        <%= image_tag @picture.image.expiring_url(6000), class: 'img-responsive' %>
+      <% end  %>
+    </div>
+  </div>
+
+</p>
+
+<%= link_to 'Edit', edit_picture_path(@picture) %> |
+<%= link_to 'Back', pictures_path %>

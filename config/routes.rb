@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pictures
   resources :projects
   # url,    controller/action,    view_path
   get 'home/index', to: 'home#index', as: 'home'
