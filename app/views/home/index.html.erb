@@ -244,7 +244,7 @@
 <div class="row">
   <div class="col-xs-12 text-center">
     <div class="space-10"></div>
-    <span class="pretty biggest bold">Sending our <i class="fa fa-heart-o" aria-hidden="true"></i> on <%= DateTime.current.ctime %></span>
+    <span class="pretty biggest bold">Sending our <i class="fa fa-heart-o" aria-hidden="true"></i> on <%= DateTime.current.in_time_zone('Pacific Time (US & Canada)').strftime('%c') %></span>
     <br>
     <h2 class="pretty biggest">By:</h2>
     <span class="pretty biggest">Sea-Anna & Drew</span>
