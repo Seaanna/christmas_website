@@ -431,12 +431,12 @@ a {
 #wrapper{
   position: fixed;
   background-image: image-url("stripes.png");
-  margin-left: -15px;
   background-size: 100%;
   z-index: 10000;
   background-repeat: repeat;
   overflow: hidden;
-  max-width: 320px;
+  left: 0;
+  right: 0;
 }
 
 ol li{
